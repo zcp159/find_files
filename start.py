@@ -32,7 +32,7 @@ def main():
     # 指定目录
     mulu_1 = r"C:\Users\33011\Desktop\新建文件夹"
     # 指定文件格式
-    geshi_1 = ["*.txt"]
+    geshi_1 = ["*.txt", "*.jpg", "*log*"]
     liwaimulu_1 = ["bin", "conf"]
     # 获取满足条件的文件生成器
     result_files = is_special_file(mulu_1, geshi_1, liwaimulu_1)
