@@ -10,7 +10,7 @@ def is_file_math(file, guizes):
         if fnmatch.fnmatch(file, guize):
             return True
     # 遍历完成后，返回假
-    # 如果前面已经返回真了，由于只能返回一个值，则这个返回假就没用了
+    # 如果前面已经返回真了，由于函数只能返回一个值，则这个返回假就没用了
     return False
 
 
